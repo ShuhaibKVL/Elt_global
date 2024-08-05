@@ -55,4 +55,4 @@ This structured approach ensures that anyone who wants to run your project local
 
 The project is deployed to [Vercel/Github Pages]. Visit the link below to see the live demo.
 
-[Live Demo Link]
+https://classpanel-4vqq4jn5b-shuhaibkvls-projects.vercel.app
