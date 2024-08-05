@@ -1,0 +1,36 @@
+.custom-pagination .page-item {
+    margin: 0 5px; /* Adjust the spacing between items */
+   
+  }
+  
+  .custom-pagination .page-link {
+    color: black !important; /* Change the font color to black */
+  }
+  
+  .custom-pagination .page-item.active .page-link {
+    background-color: #e9ecef; /* Optional: Change background color for the active page */
+    border-color: #dee2e6; /* Optional: Change border color for the active page */
+  }
+  
+  .custom-pagination .page-item.disabled .page-link {
+    color: #6c757d; /* Optional: Change color for disabled state */
+  }
+  
+  .custom-pagination .page-item .page-link:hover {
+    color: black; /* Optional: Change color on hover */
+  }
+  
+  .custom-pagination .page-item .page-link {
+    font-size: 16px; /* Optional: Adjust font size */
+  }
+
+  .custom-pagination .page-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custom-pagination .page-link span {
+    margin-left: 5px; /* Adjust the spacing between the icon and the text */
+  }
+  

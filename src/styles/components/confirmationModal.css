@@ -1,0 +1,25 @@
+.modal-content {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .modal-footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn-primary {
+    background-color: blue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  .btn-secondary {
+    background-color: lightgray;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
