@@ -18,7 +18,7 @@ export default function UpcomingClassesPanel() {
     }
 
     return (
-    <div className='h-[829px] w-[800px] bg-white rounded-md p-4' >
+    <div className='h-[829px] w-[800px] bg-red-600 rounded-md p-4' >
         <div className='header flex items-center justify-between'>
             <div>
                 <h1 className='text-[20px] font-semibold'>Upcoming classes</h1>
