@@ -9,6 +9,7 @@ import Profile from '../components/specific/Profile'
 import Navbar from '../components/specific/Navbar'
 
 export default function Dashboard() {
+    
     return (
     <div className=' flex w-full w-max-[1520px] h-[1080px] h-max-[1080px] bg-[#7b7a7a]'>
         <Sidebar />
@@ -16,9 +17,13 @@ export default function Dashboard() {
             <Additional />
             <Header />
             <div className='bg-[#F6F6F7] pt-5 pr-5 pl-5'>
-                <div className='flex justify-around sm:flex-wrap md:flex-wrap xl:flex-nowrap'>
-                <UpcomingClassesPanel />
-                <AssignmentPanel />
+                <div className='flex justify-around flex-wrap md:flex-wrap'>
+                    <div className=''>
+                        <UpcomingClassesPanel />
+                    </div>
+                    <div className=''>
+                        <AssignmentPanel />
+                    </div>
                 </div>
             </div>
             <Pagination />

@@ -111,7 +111,7 @@ const ClassTable = () => {
                   ) : classItem.action <= 24 && classItem.action > 0 ? (
                     <TimerComponent hours={classItem.action} />
                   ) : (
-                    <div className="text-blue-500">{classItem.action}</div>
+                    <div className="text-blue-500 flex justify-center items-center">{classItem.action}</div>
                   )}
                 </td>
               </tr>

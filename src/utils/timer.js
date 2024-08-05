@@ -1,6 +1,5 @@
-// timer.js
+
 const timer = (classTime, nowTime) => {
-  console.log("invoked timer :",classTime);
     const classDate = new Date(classTime);
     const nowDate = new Date(nowTime);
     const diffMs = classDate - nowDate;

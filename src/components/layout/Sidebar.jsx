@@ -16,7 +16,7 @@ export default function Sidebar() {
         <Profile />
         <section className='tabs'>
         <div className='flex-1 gap-3 pt-5 items-center justify-evenly' >
-            <Tab  type="primary"  title="Dashboard" image={moreIcon} />
+            <Tab  type="primary" title="Dashboard" image={moreIcon} font="font-semibold" />
             <Tab  title="All Classes" image={userIcon} />
             <Tab  title="Assignments" image={fileIcon} />
             <Tab  title="Performance" image={bar_chart} />

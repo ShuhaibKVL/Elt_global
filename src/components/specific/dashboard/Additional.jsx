@@ -3,6 +3,7 @@ import '../../../styles/components/addition.css'
 export default function Additional() {
 
     return (
+        <div className='hidden sm:block'>
     <div className='addition flex h-[70px] bg-white pl-[28px] pt-2'>
         <ul>
             <li>Blogs</li>
@@ -16,6 +17,7 @@ export default function Additional() {
         <ul>
             <li>Customer care</li>
         </ul>
+    </div>
     </div>
     )
 }
